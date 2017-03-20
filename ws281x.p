@@ -44,7 +44,7 @@
 .origin 0
 .entrypoint START
 
-#include "ws281x.hp"
+#include "PixelBone/ws281x.hp"
 
 #define NOP       mov r0, r0
 
