@@ -19,7 +19,7 @@ PixelBone_Pixel::PixelBone_Pixel(uint16_t pixel_count)
   pru_gpio(0, gpios0, 1, 0);
 
   // Initiate the PRU0 program
-  pru_exec(pru0, "./ws281x.bin");
+  pru_exec(pru0, "./PixelBone/ws281x.bin");
 
   // Watch for a done response that indicates a proper startup
   // TODO: timeout if it fails

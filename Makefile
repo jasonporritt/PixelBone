@@ -3,15 +3,15 @@
 # The top level targets link in the two .o files for now.
 #
 TARGETS += examples/rgb-test
-TARGETS += examples/matrix-test
-TARGETS += examples/tile-test
-TARGETS += examples/scroll
-TARGETS += examples/clear
-TARGETS += examples/game_of_life
-TARGETS += examples/clock
-TARGETS += examples/binary_clock
-TARGETS += examples/test
-TARGETS += examples/2048
+# TARGETS += examples/matrix-test
+# TARGETS += examples/tile-test
+# TARGETS += examples/scroll
+# TARGETS += examples/clear
+# TARGETS += examples/game_of_life
+# TARGETS += examples/clock
+# TARGETS += examples/binary_clock
+# TARGETS += examples/test
+# TARGETS += examples/2048
 # TARGETS += examples/fade-test
 # TARGETS += examples/fire
 # TARGETS += network/udp-rx
